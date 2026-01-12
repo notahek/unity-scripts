@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ACC.ThirdPerson
+namespace ACC
 {
     public abstract class ACC_Base : MonoBehaviour
     {
@@ -11,6 +11,9 @@ namespace ACC.ThirdPerson
         public UnityEvent OnModuleInitiated;
         public bool InitializationState = false;
 
+        /// <summary>
+        /// You must Invoke this event --> OnModuleInitiated. It lets other scripts know if the module is Initiated or Not.
+        /// </summary>
         public abstract void InitializeModule();
 
         private void Awake()

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace ACC.ThirdPerson
 {
-    public class AHEK_Character_Controller : ACC_Base
+    public class AHEK_Character_Controller : ACC.ACC_Base
     {
         //private vars
         [SerializeField] CharacterController controller;

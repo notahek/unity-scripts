@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ACC.ThirdPerson
+namespace ACC
 {
     [System.Serializable]
     public struct InputStructure
