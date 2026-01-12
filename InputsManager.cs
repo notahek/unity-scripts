@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ACC.ThirdPerson
+namespace ACC
 {
     public class InputsManager : ACC_Base
     {

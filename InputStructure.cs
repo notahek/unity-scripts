@@ -1,10 +1,7 @@
 using UnityEngine;
 
-namespace ACC.ThirdPerson
+namespace ACC
 {
-    /// <summary>
-    /// Used by the inputs manager to properly keep track of inputs per player
-    /// </summary>
     [System.Serializable]
     public struct InputStructure
     {
